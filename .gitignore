@@ -1,0 +1,32 @@
+# Node.js dependencies
+/node_modules/
+interview-drills-backend/node_modules/
+interview-drills-frontend/node_modules/
+
+# Env files
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/dist/
+/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env.local
+docker-compose.override.yml
+
+# k6 output (optional)
+k6/results/
+
+# IDE files (optional)
+.vscode/
+.idea/
